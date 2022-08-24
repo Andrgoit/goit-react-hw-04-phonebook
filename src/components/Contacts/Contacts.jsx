@@ -8,6 +8,7 @@ import {
 } from 'components/Contacts/Contacts.styled';
 
 const Contacts = ({ contacts, onDeleteContact }) => {
+  console.log(contacts);
   return (
     <StyledContactList>
       {contacts.map(({ id, name, number }) => {
